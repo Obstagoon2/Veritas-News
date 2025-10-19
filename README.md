@@ -86,6 +86,3 @@ With configuration complete, you're ready to publish.
 
 After a few minutes, your fully functional news aggregator will be live at: `https://your-username.github.io/veritas-news/`
 
-## License
-
-This project is licensed under the MIT License.
