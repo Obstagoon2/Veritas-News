@@ -565,7 +565,7 @@
 3.  **Bias Analysis:** A short analysis of each perspective's likely bias.
 4.  **The Likely Truth:** A final synthesis presenting the most objective reality.`;
 
-            const apiKey = ""; 
+            const apiKey = "AIzaSyAnYGkGh-7s0EjibZUBfuOUo0wuZoJQ6GY"; 
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
             const payload = { contents: [{ parts: [{ text: userQuery }] }], tools: [{ "google_search": {} }], systemInstruction: { parts: [{ text: systemPrompt }] } };
             
